@@ -25,3 +25,13 @@ F:\VSWorkspace\FriendFileForm\obj\Debug\FriendFileForm.Properties.Resources.reso
 F:\VSWorkspace\FriendFileForm\obj\Debug\FriendFileForm.csproj.GenerateResource.cache
 F:\VSWorkspace\FriendFileForm\obj\Debug\FriendFileForm.exe
 F:\VSWorkspace\FriendFileForm\obj\Debug\FriendFileForm.pdb
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\bin\Debug\FriendFileForm.exe.config
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\bin\Debug\FriendFileForm.exe
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\bin\Debug\FriendFileForm.pdb
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.csprojAssemblyReference.cache
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.Form1.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.Form2.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.Properties.Resources.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.csproj.GenerateResource.cache
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.exe
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.pdb
