@@ -35,7 +35,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(175, 11);
+            this.exitButton.Location = new System.Drawing.Point(196, 12);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(75, 23);
             this.exitButton.TabIndex = 0;
@@ -55,11 +55,11 @@
             // 
             // form3Button
             // 
-            this.form3Button.Location = new System.Drawing.Point(94, 11);
+            this.form3Button.Location = new System.Drawing.Point(93, 12);
             this.form3Button.Name = "form3Button";
-            this.form3Button.Size = new System.Drawing.Size(75, 23);
+            this.form3Button.Size = new System.Drawing.Size(97, 23);
             this.form3Button.TabIndex = 2;
-            this.form3Button.Text = "form3";
+            this.form3Button.Text = "Pay and Bonus";
             this.form3Button.UseVisualStyleBackColor = true;
             this.form3Button.Click += new System.EventHandler(this.form3Button_Click);
             // 
@@ -67,12 +67,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(270, 52);
+            this.ClientSize = new System.Drawing.Size(286, 52);
             this.Controls.Add(this.form3Button);
             this.Controls.Add(this.friendFileButton);
             this.Controls.Add(this.exitButton);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "C# Concepts";
             this.ResumeLayout(false);
 
         }

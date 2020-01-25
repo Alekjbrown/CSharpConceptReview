@@ -25,7 +25,8 @@ namespace FriendFileForm
 
         private void form3Button_Click(object sender, EventArgs e)
         {
-            Form form3 = new Form3();
+            Form payAndBonus = new Form3();
+            payAndBonus.Show();
         }
 
         private void exitButton_Click(object sender, EventArgs e)
