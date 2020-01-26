@@ -102,6 +102,81 @@ namespace FriendFileForm
             }
         }
 
+        //SelectionSort method accepts an int array as an argument.
+        //It uses the SelectionSor algorithm to sort the array.
+        private void SelectionSort(int[] iArray)
+        {
+            int minIndex; //Subscript of smallest value in scanned area
+            int minValue; //smallest value in the scanned area
+
+            //The outer loop steps through all the array elements except the last one.
+            //The startScan variable marks the position where the scan should begin
+            for (int startScan = 0; startScan < iArray.Length - 1; startScan++)
+            {
+                //Assume the first element in the scannable area is the smallest value.
+                minIndex = startScan;
+                minValue = iArray[startScan];
+
+                //scan the array, starting at the 2nd element in the scannable area
+                //looking for the smalles value
+                for (int index = startScan + 1; index < iArray.Length; index++)
+                {
+                    if (iArray[index] < minValue)
+                    {
+                        minValue = iArray[index];
+                        minIndex = index;
+                    }
+                }
+
+                //Swap the element with the smallest value with the first element in the scannable area
+                Swap(ref iArray[minIndex], ref iArray[startScan]);
+            }
+        }
+
+        //The Swap method accepts two integer arguments, by reference, and swaps their contents
+        private void Swap(ref int a, ref int b)
+        {
+            int temp = a;
+            a = b;
+            b = temp;
+        }
+
+        //BinarySearch method searches for specific item in array from center of array (must be sorted to function correctly)
+        private int BinarySearch(int[] iArray, int value)
+        {
+            int first = 0; //First Array element
+            int last = iArray.Length - 1; //Last array element
+            int middle; //Midpoint of search
+            int position = -1; //Position of search value
+            bool found = false; //Flag
+
+            //search for the value
+            while (!found && first <= last)
+            {
+                //Calculate the midpoint.
+                middle = (first + last) / 2;
+
+                //If value is found at midpoint
+                if (iArray[middle] == value)
+                {
+                    found = true;
+                    position = middle;
+                }
+                //else if value is in lower half...
+                else if (iArray[middle] > value)
+                {
+                    last = middle - 1;
+                }
+                else
+                {
+                    first = middle + 1;
+                }
+            }
+
+            //Return the position of the item, or -1 if it was not found.
+            return position;
+        }
+
         private void getScoresButton_Click_1(object sender, EventArgs e)
         {
             try
@@ -164,6 +239,48 @@ namespace FriendFileForm
         private void closeButton_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void sortButton_Click(object sender, EventArgs e)
+        {
+            // read testScoresListBox into array
+            int[] scores = testScoresListBox.Items.OfType<int>().ToArray();
+
+            try
+            {
+                SelectionSort(scores);
+
+                //Display the test scores
+                foreach (int value in scores)
+                {
+                    sortedScoresListBox.Items.Add(value);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void sortedScoresListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //declare variable for index
+            int index;
+
+            //read items from listbox to array
+            int[] scores = sortedScoresListBox.Items.OfType<int>().ToArray();
+
+            //read value from selected item to variable
+            int selection = (int)sortedScoresListBox.SelectedItem;
+
+            //sort before search
+            SelectionSort(scores);
+
+            //call search using scores as array argument and selection as value to search for and return as variable
+            index = BinarySearch(scores, selection);
+
+            indexOutLabel.Text = index.ToString();
         }
     }
 }
