@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace FriendFileForm
 {
-    public partial class Form3 : Form
+    public partial class PayBudgetForm : Form
     {
 
         //Constant field for the contribution rate
         private const decimal CONTRIB_RATE = 0.05m;
 
-        public Form3()
+        public PayBudgetForm()
         {
             InitializeComponent();
         }
