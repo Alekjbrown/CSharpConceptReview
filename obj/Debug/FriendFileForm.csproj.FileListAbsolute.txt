@@ -29,10 +29,12 @@ C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\bin\Debug\FriendFileForm
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\bin\Debug\FriendFileForm.exe
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\bin\Debug\FriendFileForm.pdb
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.csprojAssemblyReference.cache
-C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.Form1.resources
-C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.Form2.resources
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.Properties.Resources.resources
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.csproj.GenerateResource.cache
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.exe
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.pdb
-C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.Form3.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.ArrayProcessForm.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.startupForm.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.FriendNameForm.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.PayBudgetForm.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.BinarySearchForm.resources

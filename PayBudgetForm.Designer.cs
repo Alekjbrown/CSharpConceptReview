@@ -1,6 +1,6 @@
 ﻿namespace FriendFileForm
 {
-    partial class Form3
+    partial class PayBudgetForm
     {
         /// <summary>
         /// Required designer variable.

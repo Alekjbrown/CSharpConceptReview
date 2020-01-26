@@ -46,34 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ArrayProcessForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ArrayProcessForm.Designer.cs">
+      <DependentUpon>ArrayProcessForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="BinarySearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="BinarySearchForm.Designer.cs">
+      <DependentUpon>BinarySearchForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="FriendNameForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="FriendNameForm.Designer.cs">
+      <DependentUpon>FriendNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="startupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startupForm.Designer.cs">
+      <DependentUpon>startupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayBudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayBudgetForm.Designer.cs">
+      <DependentUpon>PayBudgetForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="arrayProcessForm.resx">
+      <DependentUpon>ArrayProcessForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="BinarySearchForm.resx">
+      <DependentUpon>BinarySearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="FriendNameForm.resx">
+      <DependentUpon>FriendNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startupForm.resx">
+      <DependentUpon>startupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayBudgetForm.resx">
+      <DependentUpon>PayBudgetForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

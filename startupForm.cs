@@ -10,28 +10,40 @@ using System.Windows.Forms;
 
 namespace FriendFileForm
 {
-    public partial class Form2 : Form
+    public partial class startupForm : Form
     {
-        public Form2()
+        public startupForm()
         {
             InitializeComponent();
         }
 
         private void friendFileButton_Click(object sender, EventArgs e)
         {
-            Form friendFile = new Form1();
+            Form friendFile = new FriendNameForm();
             friendFile.Show();
         }
 
         private void form3Button_Click(object sender, EventArgs e)
         {
-            Form payAndBonus = new Form3();
+            Form payAndBonus = new PayBudgetForm();
             payAndBonus.Show();
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void arrayProcessingButton_Click(object sender, EventArgs e)
+        {
+            Form arrayProcessing = new ArrayProcessForm();
+            arrayProcessing.Show();
+        }
+
+        private void binarySearchButton_Click(object sender, EventArgs e)
+        {
+            Form binarySearch = new BinarySearchForm();
+            binarySearch.Show();
         }
     }
 }
