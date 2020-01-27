@@ -39,6 +39,7 @@
             this.colorSpectrumButton = new System.Windows.Forms.Button();
             this.coinTossButton = new System.Windows.Forms.Button();
             this.cellPhoneTestButton = new System.Windows.Forms.Button();
+            this.accountSimulatorButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
@@ -151,11 +152,22 @@
             this.cellPhoneTestButton.UseVisualStyleBackColor = true;
             this.cellPhoneTestButton.Click += new System.EventHandler(this.cellPhoneTestButton_Click);
             // 
+            // accountSimulatorButton
+            // 
+            this.accountSimulatorButton.Location = new System.Drawing.Point(292, 69);
+            this.accountSimulatorButton.Name = "accountSimulatorButton";
+            this.accountSimulatorButton.Size = new System.Drawing.Size(134, 23);
+            this.accountSimulatorButton.TabIndex = 11;
+            this.accountSimulatorButton.Text = "Account Simulator";
+            this.accountSimulatorButton.UseVisualStyleBackColor = true;
+            this.accountSimulatorButton.Click += new System.EventHandler(this.accountSimulatorButton_Click);
+            // 
             // startupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 135);
+            this.Controls.Add(this.accountSimulatorButton);
             this.Controls.Add(this.cellPhoneTestButton);
             this.Controls.Add(this.coinTossButton);
             this.Controls.Add(this.colorSpectrumButton);
@@ -186,5 +198,6 @@
         private System.Windows.Forms.Button colorSpectrumButton;
         private System.Windows.Forms.Button coinTossButton;
         private System.Windows.Forms.Button cellPhoneTestButton;
+        private System.Windows.Forms.Button accountSimulatorButton;
     }
 }

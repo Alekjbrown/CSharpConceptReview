@@ -74,5 +74,11 @@ namespace FriendFileForm
             Form cellTest = new CellPhoneTestForm();
             cellTest.Show();
         }
+
+        private void accountSimulatorButton_Click(object sender, EventArgs e)
+        {
+            AccountSimulatorForm accountSim = new AccountSimulatorForm();
+            accountSim.ShowDialog();
+        }
     }
 }
