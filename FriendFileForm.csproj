@@ -76,6 +76,12 @@
     <Compile Include="PasswordValidationForm.Designer.cs">
       <DependentUpon>PasswordValidationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PhonebookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhonebookForm.Designer.cs">
+      <DependentUpon>PhonebookForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="startupForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PasswordValidationForm.resx">
       <DependentUpon>PasswordValidationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhonebookForm.resx">
+      <DependentUpon>PhonebookForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="startupForm.resx">
       <DependentUpon>startupForm.cs</DependentUpon>

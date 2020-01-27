@@ -57,5 +57,11 @@ namespace FriendFileForm
             Form formatTelephone = new FormatTelephoneForm();
             formatTelephone.Show();
         }
+
+        private void telephoneBookButton_Click(object sender, EventArgs e)
+        {
+            Form phonebookForm = new PhonebookForm();
+            phonebookForm.Show();
+        }
     }
 }
