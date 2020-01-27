@@ -36,11 +36,12 @@
             this.passwordValidationButton = new System.Windows.Forms.Button();
             this.formatTelephoneButton = new System.Windows.Forms.Button();
             this.telephoneBookButton = new System.Windows.Forms.Button();
+            this.colorSpectrumButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(152, 99);
+            this.exitButton.Location = new System.Drawing.Point(292, 98);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(130, 23);
             this.exitButton.TabIndex = 0;
@@ -62,7 +63,7 @@
             // 
             this.form3Button.Location = new System.Drawing.Point(152, 12);
             this.form3Button.Name = "form3Button";
-            this.form3Button.Size = new System.Drawing.Size(130, 23);
+            this.form3Button.Size = new System.Drawing.Size(134, 23);
             this.form3Button.TabIndex = 2;
             this.form3Button.Text = "Pay and Bonus";
             this.form3Button.UseVisualStyleBackColor = true;
@@ -82,7 +83,7 @@
             // 
             this.binarySearchButton.Location = new System.Drawing.Point(152, 40);
             this.binarySearchButton.Name = "binarySearchButton";
-            this.binarySearchButton.Size = new System.Drawing.Size(130, 23);
+            this.binarySearchButton.Size = new System.Drawing.Size(134, 23);
             this.binarySearchButton.TabIndex = 4;
             this.binarySearchButton.Text = "Binary Search";
             this.binarySearchButton.UseVisualStyleBackColor = true;
@@ -102,7 +103,7 @@
             // 
             this.formatTelephoneButton.Location = new System.Drawing.Point(152, 69);
             this.formatTelephoneButton.Name = "formatTelephoneButton";
-            this.formatTelephoneButton.Size = new System.Drawing.Size(133, 23);
+            this.formatTelephoneButton.Size = new System.Drawing.Size(134, 23);
             this.formatTelephoneButton.TabIndex = 6;
             this.formatTelephoneButton.Text = "Format Telephone";
             this.formatTelephoneButton.UseVisualStyleBackColor = true;
@@ -118,11 +119,22 @@
             this.telephoneBookButton.UseVisualStyleBackColor = true;
             this.telephoneBookButton.Click += new System.EventHandler(this.telephoneBookButton_Click);
             // 
+            // colorSpectrumButton
+            // 
+            this.colorSpectrumButton.Location = new System.Drawing.Point(152, 98);
+            this.colorSpectrumButton.Name = "colorSpectrumButton";
+            this.colorSpectrumButton.Size = new System.Drawing.Size(134, 23);
+            this.colorSpectrumButton.TabIndex = 8;
+            this.colorSpectrumButton.Text = "Color Spectrum";
+            this.colorSpectrumButton.UseVisualStyleBackColor = true;
+            this.colorSpectrumButton.Click += new System.EventHandler(this.colorSpectrumButton_Click);
+            // 
             // startupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(297, 135);
+            this.ClientSize = new System.Drawing.Size(435, 135);
+            this.Controls.Add(this.colorSpectrumButton);
             this.Controls.Add(this.telephoneBookButton);
             this.Controls.Add(this.formatTelephoneButton);
             this.Controls.Add(this.passwordValidationButton);
@@ -147,5 +159,6 @@
         private System.Windows.Forms.Button passwordValidationButton;
         private System.Windows.Forms.Button formatTelephoneButton;
         private System.Windows.Forms.Button telephoneBookButton;
+        private System.Windows.Forms.Button colorSpectrumButton;
     }
 }

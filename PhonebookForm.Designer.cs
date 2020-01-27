@@ -64,9 +64,9 @@
             // 
             // phoneLabel
             // 
-            this.phoneLabel.Enabled = false;
             this.phoneLabel.Location = new System.Drawing.Point(159, 98);
             this.phoneLabel.Name = "phoneLabel";
+            this.phoneLabel.ReadOnly = true;
             this.phoneLabel.Size = new System.Drawing.Size(100, 20);
             this.phoneLabel.TabIndex = 3;
             // 

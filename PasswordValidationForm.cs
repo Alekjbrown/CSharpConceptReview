@@ -26,7 +26,7 @@ namespace FriendFileForm
             //Count the uppercase chara cters in str
             foreach (char ch in str)
             {
-                if (char.IsUpper(ch)) ;
+                if (char.IsUpper(ch))
                 {
                     upperCase++;
                 }
@@ -82,7 +82,7 @@ namespace FriendFileForm
             string password = passwordTextBox.Text;
 
             //Validate the password
-            if(password.Length >= MIN_LENGTH && NumberUpperCase(password) >= 1 && NumberLowerCase(password) >= 1 && NumberDigits(password) >= 1)
+            if (password.Length >= MIN_LENGTH && NumberUpperCase(password) >= 1 && NumberLowerCase(password) >= 1 && NumberDigits(password) >= 1)
             {
                 MessageBox.Show("The password is valid.");
             }

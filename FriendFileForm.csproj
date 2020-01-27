@@ -58,6 +58,12 @@
     <Compile Include="BinarySearchForm.Designer.cs">
       <DependentUpon>BinarySearchForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ColorSpectrumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorSpectrumForm.Designer.cs">
+      <DependentUpon>ColorSpectrumForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormatTelephoneForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BinarySearchForm.resx">
       <DependentUpon>BinarySearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorSpectrumForm.resx">
+      <DependentUpon>ColorSpectrumForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormatTelephoneForm.resx">
       <DependentUpon>FormatTelephoneForm.cs</DependentUpon>
