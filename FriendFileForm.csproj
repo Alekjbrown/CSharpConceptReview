@@ -58,6 +58,13 @@
     <Compile Include="BinarySearchForm.Designer.cs">
       <DependentUpon>BinarySearchForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Coin.cs" />
+    <Compile Include="CoinTossForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoinTossForm.Designer.cs">
+      <DependentUpon>CoinTossForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ColorSpectrumForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BinarySearchForm.resx">
       <DependentUpon>BinarySearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoinTossForm.resx">
+      <DependentUpon>CoinTossForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ColorSpectrumForm.resx">
       <DependentUpon>ColorSpectrumForm.cs</DependentUpon>

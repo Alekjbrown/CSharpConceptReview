@@ -37,6 +37,7 @@
             this.formatTelephoneButton = new System.Windows.Forms.Button();
             this.telephoneBookButton = new System.Windows.Forms.Button();
             this.colorSpectrumButton = new System.Windows.Forms.Button();
+            this.coinTossButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
@@ -129,11 +130,22 @@
             this.colorSpectrumButton.UseVisualStyleBackColor = true;
             this.colorSpectrumButton.Click += new System.EventHandler(this.colorSpectrumButton_Click);
             // 
+            // coinTossButton
+            // 
+            this.coinTossButton.Location = new System.Drawing.Point(292, 11);
+            this.coinTossButton.Name = "coinTossButton";
+            this.coinTossButton.Size = new System.Drawing.Size(130, 23);
+            this.coinTossButton.TabIndex = 9;
+            this.coinTossButton.Text = "Coin Toss";
+            this.coinTossButton.UseVisualStyleBackColor = true;
+            this.coinTossButton.Click += new System.EventHandler(this.coinTossButton_Click);
+            // 
             // startupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 135);
+            this.Controls.Add(this.coinTossButton);
             this.Controls.Add(this.colorSpectrumButton);
             this.Controls.Add(this.telephoneBookButton);
             this.Controls.Add(this.formatTelephoneButton);
@@ -160,5 +172,6 @@
         private System.Windows.Forms.Button formatTelephoneButton;
         private System.Windows.Forms.Button telephoneBookButton;
         private System.Windows.Forms.Button colorSpectrumButton;
+        private System.Windows.Forms.Button coinTossButton;
     }
 }
