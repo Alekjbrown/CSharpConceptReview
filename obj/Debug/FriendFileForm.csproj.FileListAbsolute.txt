@@ -43,3 +43,4 @@ C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.PhonebookForm.resources
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.ColorSpectrumForm.resources
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.CoinTossForm.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.CellPhoneTestForm.resources

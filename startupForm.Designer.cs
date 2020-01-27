@@ -38,13 +38,14 @@
             this.telephoneBookButton = new System.Windows.Forms.Button();
             this.colorSpectrumButton = new System.Windows.Forms.Button();
             this.coinTossButton = new System.Windows.Forms.Button();
+            this.cellPhoneTestButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
             // 
             this.exitButton.Location = new System.Drawing.Point(292, 98);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(130, 23);
+            this.exitButton.Size = new System.Drawing.Size(134, 23);
             this.exitButton.TabIndex = 0;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -134,17 +135,28 @@
             // 
             this.coinTossButton.Location = new System.Drawing.Point(292, 11);
             this.coinTossButton.Name = "coinTossButton";
-            this.coinTossButton.Size = new System.Drawing.Size(130, 23);
+            this.coinTossButton.Size = new System.Drawing.Size(134, 23);
             this.coinTossButton.TabIndex = 9;
             this.coinTossButton.Text = "Coin Toss";
             this.coinTossButton.UseVisualStyleBackColor = true;
             this.coinTossButton.Click += new System.EventHandler(this.coinTossButton_Click);
+            // 
+            // cellPhoneTestButton
+            // 
+            this.cellPhoneTestButton.Location = new System.Drawing.Point(292, 40);
+            this.cellPhoneTestButton.Name = "cellPhoneTestButton";
+            this.cellPhoneTestButton.Size = new System.Drawing.Size(134, 23);
+            this.cellPhoneTestButton.TabIndex = 10;
+            this.cellPhoneTestButton.Text = "Cell Phone Test";
+            this.cellPhoneTestButton.UseVisualStyleBackColor = true;
+            this.cellPhoneTestButton.Click += new System.EventHandler(this.cellPhoneTestButton_Click);
             // 
             // startupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 135);
+            this.Controls.Add(this.cellPhoneTestButton);
             this.Controls.Add(this.coinTossButton);
             this.Controls.Add(this.colorSpectrumButton);
             this.Controls.Add(this.telephoneBookButton);
@@ -173,5 +185,6 @@
         private System.Windows.Forms.Button telephoneBookButton;
         private System.Windows.Forms.Button colorSpectrumButton;
         private System.Windows.Forms.Button coinTossButton;
+        private System.Windows.Forms.Button cellPhoneTestButton;
     }
 }
