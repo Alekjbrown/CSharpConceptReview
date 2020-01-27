@@ -38,3 +38,4 @@ C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.FriendNameForm.resources
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.PayBudgetForm.resources
 C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.BinarySearchForm.resources
+C:\Users\alekj\Documents\Workspaces\CSharpConceptReview\obj\Debug\FriendFileForm.PasswordValidationForm.resources
