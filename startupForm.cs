@@ -62,5 +62,11 @@ namespace FriendFileForm
             Form colorSpectrum = new ColorSpectrumForm();
             colorSpectrum.Show();
         }
+
+        private void coinTossButton_Click(object sender, EventArgs e)
+        {
+            Form coinToss = new CoinTossForm();
+            coinToss.Show();
+        }
     }
 }
