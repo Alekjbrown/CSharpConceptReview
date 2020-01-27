@@ -52,6 +52,7 @@
     <Compile Include="AccountSimulatorForm.Designer.cs">
       <DependentUpon>AccountSimulatorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Animal.cs" />
     <Compile Include="ArrayProcessForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +66,7 @@
     <Compile Include="BinarySearchForm.Designer.cs">
       <DependentUpon>BinarySearchForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cat.cs" />
     <Compile Include="Cellphone.cs" />
     <Compile Include="CellPhoneTestForm.cs">
       <SubType>Form</SubType>
@@ -85,6 +87,7 @@
     <Compile Include="ColorSpectrumForm.Designer.cs">
       <DependentUpon>ColorSpectrumForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dog.cs" />
     <Compile Include="FormatTelephoneForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PhonebookForm.resx">
       <DependentUpon>PhonebookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PolymorphismDemo.resx">
+      <DependentUpon>PolymorphismDemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="startupForm.resx">
       <DependentUpon>startupForm.cs</DependentUpon>
