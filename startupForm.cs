@@ -80,5 +80,11 @@ namespace FriendFileForm
             AccountSimulatorForm accountSim = new AccountSimulatorForm();
             accountSim.ShowDialog();
         }
+
+        private void polymorphismButton_Click(object sender, EventArgs e)
+        {
+            PolymorphismDemo polyDemo = new PolymorphismDemo();
+            polyDemo.ShowDialog();
+        }
     }
 }
