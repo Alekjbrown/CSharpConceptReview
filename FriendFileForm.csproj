@@ -64,6 +64,12 @@
     <Compile Include="FriendNameForm.Designer.cs">
       <DependentUpon>FriendNameForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PasswordValidationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordValidationForm.Designer.cs">
+      <DependentUpon>PasswordValidationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="startupForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FriendNameForm.resx">
       <DependentUpon>FriendNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordValidationForm.resx">
+      <DependentUpon>PasswordValidationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="startupForm.resx">
       <DependentUpon>startupForm.cs</DependentUpon>

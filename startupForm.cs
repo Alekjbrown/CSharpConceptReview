@@ -45,5 +45,11 @@ namespace FriendFileForm
             Form binarySearch = new BinarySearchForm();
             binarySearch.Show();
         }
+
+        private void passwordValidationButton_Click(object sender, EventArgs e)
+        {
+            Form passwordValidation = new PasswordValidationForm();
+            passwordValidation.Show();
+        }
     }
 }
