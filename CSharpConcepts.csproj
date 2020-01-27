@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FDD0FDF8-76EB-45BF-A043-A71714FD7672}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FriendFileForm</RootNamespace>
+    <AssemblyName>FriendFileForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountSimulatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountSimulatorForm.Designer.cs">
+      <DependentUpon>AccountSimulatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrayProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrayProcessForm.Designer.cs">
+      <DependentUpon>ArrayProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="BinarySearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BinarySearchForm.Designer.cs">
+      <DependentUpon>BinarySearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cellphone.cs" />
+    <Compile Include="CellPhoneTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CellPhoneTestForm.Designer.cs">
+      <DependentUpon>CellPhoneTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coin.cs" />
+    <Compile Include="CoinTossForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoinTossForm.Designer.cs">
+      <DependentUpon>CoinTossForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorSpectrumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorSpectrumForm.Designer.cs">
+      <DependentUpon>ColorSpectrumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormatTelephoneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormatTelephoneForm.Designer.cs">
+      <DependentUpon>FormatTelephoneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FriendNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FriendNameForm.Designer.cs">
+      <DependentUpon>FriendNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordValidationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordValidationForm.Designer.cs">
+      <DependentUpon>PasswordValidationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhonebookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhonebookForm.Designer.cs">
+      <DependentUpon>PhonebookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PolymorphismDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PolymorphismDemo.Designer.cs">
+      <DependentUpon>PolymorphismDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="startupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startupForm.Designer.cs">
+      <DependentUpon>startupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayBudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayBudgetForm.Designer.cs">
+      <DependentUpon>PayBudgetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountSimulatorForm.resx">
+      <DependentUpon>AccountSimulatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arrayProcessForm.resx">
+      <DependentUpon>ArrayProcessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BinarySearchForm.resx">
+      <DependentUpon>BinarySearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CellPhoneTestForm.resx">
+      <DependentUpon>CellPhoneTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoinTossForm.resx">
+      <DependentUpon>CoinTossForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorSpectrumForm.resx">
+      <DependentUpon>ColorSpectrumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormatTelephoneForm.resx">
+      <DependentUpon>FormatTelephoneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriendNameForm.resx">
+      <DependentUpon>FriendNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordValidationForm.resx">
+      <DependentUpon>PasswordValidationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhonebookForm.resx">
+      <DependentUpon>PhonebookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startupForm.resx">
+      <DependentUpon>startupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayBudgetForm.resx">
+      <DependentUpon>PayBudgetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
