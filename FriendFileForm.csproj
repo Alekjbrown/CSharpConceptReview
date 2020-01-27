@@ -46,12 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountSimulatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountSimulatorForm.Designer.cs">
+      <DependentUpon>AccountSimulatorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ArrayProcessForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ArrayProcessForm.Designer.cs">
       <DependentUpon>ArrayProcessForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BankAccount.cs" />
     <Compile Include="BinarySearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +123,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountSimulatorForm.resx">
+      <DependentUpon>AccountSimulatorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="arrayProcessForm.resx">
       <DependentUpon>ArrayProcessForm.cs</DependentUpon>
     </EmbeddedResource>
