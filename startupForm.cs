@@ -51,5 +51,11 @@ namespace FriendFileForm
             Form passwordValidation = new PasswordValidationForm();
             passwordValidation.Show();
         }
+
+        private void formatTelephoneButton_Click(object sender, EventArgs e)
+        {
+            Form formatTelephone = new FormatTelephoneForm();
+            formatTelephone.Show();
+        }
     }
 }
