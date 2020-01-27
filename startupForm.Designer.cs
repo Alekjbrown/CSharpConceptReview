@@ -35,6 +35,7 @@
             this.binarySearchButton = new System.Windows.Forms.Button();
             this.passwordValidationButton = new System.Windows.Forms.Button();
             this.formatTelephoneButton = new System.Windows.Forms.Button();
+            this.telephoneBookButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
@@ -99,7 +100,7 @@
             // 
             // formatTelephoneButton
             // 
-            this.formatTelephoneButton.Location = new System.Drawing.Point(13, 99);
+            this.formatTelephoneButton.Location = new System.Drawing.Point(152, 69);
             this.formatTelephoneButton.Name = "formatTelephoneButton";
             this.formatTelephoneButton.Size = new System.Drawing.Size(133, 23);
             this.formatTelephoneButton.TabIndex = 6;
@@ -107,11 +108,22 @@
             this.formatTelephoneButton.UseVisualStyleBackColor = true;
             this.formatTelephoneButton.Click += new System.EventHandler(this.formatTelephoneButton_Click);
             // 
+            // telephoneBookButton
+            // 
+            this.telephoneBookButton.Location = new System.Drawing.Point(12, 99);
+            this.telephoneBookButton.Name = "telephoneBookButton";
+            this.telephoneBookButton.Size = new System.Drawing.Size(134, 23);
+            this.telephoneBookButton.TabIndex = 7;
+            this.telephoneBookButton.Text = "Phonebook";
+            this.telephoneBookButton.UseVisualStyleBackColor = true;
+            this.telephoneBookButton.Click += new System.EventHandler(this.telephoneBookButton_Click);
+            // 
             // startupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(297, 135);
+            this.Controls.Add(this.telephoneBookButton);
             this.Controls.Add(this.formatTelephoneButton);
             this.Controls.Add(this.passwordValidationButton);
             this.Controls.Add(this.binarySearchButton);
@@ -134,5 +146,6 @@
         private System.Windows.Forms.Button binarySearchButton;
         private System.Windows.Forms.Button passwordValidationButton;
         private System.Windows.Forms.Button formatTelephoneButton;
+        private System.Windows.Forms.Button telephoneBookButton;
     }
 }
