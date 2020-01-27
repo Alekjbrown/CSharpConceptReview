@@ -68,5 +68,11 @@ namespace FriendFileForm
             Form coinToss = new CoinTossForm();
             coinToss.Show();
         }
+
+        private void cellPhoneTestButton_Click(object sender, EventArgs e)
+        {
+            Form cellTest = new CellPhoneTestForm();
+            cellTest.Show();
+        }
     }
 }
