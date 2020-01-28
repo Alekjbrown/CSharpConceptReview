@@ -42,11 +42,12 @@
             this.accountSimulatorButton = new System.Windows.Forms.Button();
             this.polymorphismButton = new System.Windows.Forms.Button();
             this.studentApplicationButton = new System.Windows.Forms.Button();
+            this.cellPhoneInventoryButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(152, 127);
+            this.exitButton.Location = new System.Drawing.Point(292, 127);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(134, 23);
             this.exitButton.TabIndex = 0;
@@ -184,11 +185,22 @@
             this.studentApplicationButton.UseVisualStyleBackColor = true;
             this.studentApplicationButton.Click += new System.EventHandler(this.studentApplicationButton_Click);
             // 
+            // cellPhoneInventoryButton
+            // 
+            this.cellPhoneInventoryButton.Location = new System.Drawing.Point(152, 127);
+            this.cellPhoneInventoryButton.Name = "cellPhoneInventoryButton";
+            this.cellPhoneInventoryButton.Size = new System.Drawing.Size(134, 23);
+            this.cellPhoneInventoryButton.TabIndex = 14;
+            this.cellPhoneInventoryButton.Text = "Cell Phone Inventory";
+            this.cellPhoneInventoryButton.UseVisualStyleBackColor = true;
+            this.cellPhoneInventoryButton.Click += new System.EventHandler(this.cellPhoneInventoryButton_Click);
+            // 
             // startupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 198);
+            this.Controls.Add(this.cellPhoneInventoryButton);
             this.Controls.Add(this.studentApplicationButton);
             this.Controls.Add(this.polymorphismButton);
             this.Controls.Add(this.accountSimulatorButton);
@@ -225,5 +237,6 @@
         private System.Windows.Forms.Button accountSimulatorButton;
         private System.Windows.Forms.Button polymorphismButton;
         private System.Windows.Forms.Button studentApplicationButton;
+        private System.Windows.Forms.Button cellPhoneInventoryButton;
     }
 }
