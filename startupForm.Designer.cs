@@ -41,6 +41,7 @@
             this.cellPhoneTestButton = new System.Windows.Forms.Button();
             this.accountSimulatorButton = new System.Windows.Forms.Button();
             this.polymorphismButton = new System.Windows.Forms.Button();
+            this.studentApplicationButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
@@ -173,11 +174,22 @@
             this.polymorphismButton.UseVisualStyleBackColor = true;
             this.polymorphismButton.Click += new System.EventHandler(this.polymorphismButton_Click);
             // 
+            // studentApplicationButton
+            // 
+            this.studentApplicationButton.Location = new System.Drawing.Point(13, 127);
+            this.studentApplicationButton.Name = "studentApplicationButton";
+            this.studentApplicationButton.Size = new System.Drawing.Size(133, 23);
+            this.studentApplicationButton.TabIndex = 13;
+            this.studentApplicationButton.Text = "Student Application";
+            this.studentApplicationButton.UseVisualStyleBackColor = true;
+            this.studentApplicationButton.Click += new System.EventHandler(this.studentApplicationButton_Click);
+            // 
             // startupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 175);
+            this.ClientSize = new System.Drawing.Size(435, 198);
+            this.Controls.Add(this.studentApplicationButton);
             this.Controls.Add(this.polymorphismButton);
             this.Controls.Add(this.accountSimulatorButton);
             this.Controls.Add(this.cellPhoneTestButton);
@@ -212,5 +224,6 @@
         private System.Windows.Forms.Button cellPhoneTestButton;
         private System.Windows.Forms.Button accountSimulatorButton;
         private System.Windows.Forms.Button polymorphismButton;
+        private System.Windows.Forms.Button studentApplicationButton;
     }
 }
