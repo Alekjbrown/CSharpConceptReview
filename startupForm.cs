@@ -86,5 +86,11 @@ namespace FriendFileForm
             PolymorphismDemo polyDemo = new PolymorphismDemo();
             polyDemo.ShowDialog();
         }
+
+        private void studentApplicationButton_Click(object sender, EventArgs e)
+        {
+            StudentApplicationForm studentApp = new StudentApplicationForm();
+            studentApp.ShowDialog();
+        }
     }
 }
