@@ -92,5 +92,11 @@ namespace FriendFileForm
             StudentApplicationForm studentApp = new StudentApplicationForm();
             studentApp.ShowDialog();
         }
+
+        private void cellPhoneInventoryButton_Click(object sender, EventArgs e)
+        {
+            CellPhoneInventoryForm cellPhone = new CellPhoneInventoryForm();
+            cellPhone.ShowDialog();
+        }
     }
 }

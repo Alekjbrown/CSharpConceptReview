@@ -26,7 +26,7 @@
         //overloaded Deposit Method allows class method to be called with a double without converting to decimal first
         public void Deposit(double amount)
         {
-            _balance = (decimal)amount;
+            _balance += (decimal)amount;
         }
 
         //Withdraw method
