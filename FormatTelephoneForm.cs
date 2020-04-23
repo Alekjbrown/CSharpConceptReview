@@ -25,13 +25,13 @@ namespace FriendFileForm
             bool valid = true; //flag to indicate validity
 
             //check the string's length
-            if(str.Length == VALID_LENGTH)
+            if (str.Length == VALID_LENGTH)
             {
                 //check each character in str
-                foreach(char ch in str)
+                foreach (char ch in str)
                 {
-                    //if this character is not a digir, the string is not valid
-                    if(!char.IsDigit(ch))
+                    //if this character is not a digit, the string is not valid
+                    if (!char.IsDigit(ch))
                     {
                         valid = false;
                     }
